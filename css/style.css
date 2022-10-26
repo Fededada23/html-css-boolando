@@ -123,3 +123,24 @@ ul{
     width: calc(100%/3);
 }
 
+footer{
+    background-color: black;
+    color: white;
+    padding: 100px;
+}
+
+.link{
+    display: inline-block;
+   
+}
+
+.container-footer{
+      
+        width: 80%;
+        margin: 0 auto;
+       
+}
+
+#{
+    color: white;
+}
