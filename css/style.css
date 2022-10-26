@@ -11,14 +11,74 @@
     margin: 0 auto;
 }
 
-.row{
+.row-header{
+    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100%;
     
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.content{
+    position: relative;
 }
 
 ul{
     list-style-type: none;
+}
+
+.marchio{
+    font-size: 20px;
+}
+
+.modello{
+    font-size: 20px;
+}
+
+.prezzo-rosso{
+    color: red;
+    display: flex;
+}
+
+.prezzo-nero{
+    color: black;
+}
+
+.label{
+    width: auto;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+    bottom: 150px;
+    
+}
+
+.square{
+ 
+    height: 30px;
+    width: 30px;
+    background-color: white;
+
+    top: 100%;
+}
+
+.margin-120px{
+    margin-left: 80px;
+}
+
+.green{
+    background-color: green;
+    width: 140px;
+}
+
+.red{
+    background-color: red;
+    width: 70px;
 }
