@@ -123,6 +123,15 @@ ul{
     width: calc(100%/3);
 }
 
+.col-header1{
+    margin-left: 10%;
+}
+
+.col-header3{
+    margin-right: 10%;
+}
+
+
 footer{
     background-color: black;
     color: white;
@@ -139,7 +148,7 @@ footer{
 
 .container-footer{
       
-        width: 80%;
+        width: 75%;
         margin: 0 auto;
        
 }
