@@ -129,9 +129,12 @@ footer{
     padding: 100px;
 }
 
-li{
-    display: inline-block;
-   
+.ul-header{
+    display: flex;
+}
+
+.ul-footer{
+    display: flex;
 }
 
 .container-footer{
@@ -144,4 +147,8 @@ li{
 a{
     color: white;
     text-decoration: none;
+}
+
+.span{
+    margin-right: 20px;
 }
